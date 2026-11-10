@@ -1,0 +1,10 @@
+{
+  "name": "valora-web",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Frontend estático de Válora: catálogo por comida y carrito local.",
+  "scripts": { "test": "node --test pruebas/*.test.js" },
+  "engines": { "node": ">=24" },
+  "devDependencies": { "jsdom": "30.1.3" }
+}

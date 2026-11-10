@@ -1,0 +1,1485 @@
+{
+  "version": 2,
+  "moneda": "USD",
+  "demostracion": true,
+  "productos": [
+    {
+      "id": "buffet-empresarial",
+      "nombre": "Buffet empresarial",
+      "descripcion": "Organiza la alimentación de tu equipo: elige desayuno, almuerzo o merienda, selecciona el menú y añade los complementos que prefieras.",
+      "imagen": "assets/paquetes/buffet-empresarial.jpg",
+      "imagenAlt": "Buffet con pollo asado, arroz, vegetales y ensalada en fuentes de cerámica",
+      "incluye": [
+        "Una porción del menú elegido por persona",
+        "Acompañamientos indicados en el menú",
+        "Bebida incluida según el menú elegido"
+      ],
+      "etiqueta": "Por persona",
+      "servicioId": "buffet-empresarial",
+      "ofertas": [
+        {
+          "tipoComida": "ALMUERZO",
+          "precioCentavos": 1250,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/pollo",
+              "nombre": "Pollo con arroz y vegetales",
+              "extraCentavos": 0,
+              "codigo": "pollo"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/vegetariano",
+              "nombre": "Vegetales con quinoa y legumbres",
+              "extraCentavos": 0,
+              "codigo": "vegetariano"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/res",
+              "nombre": "Res con papas y ensalada",
+              "extraCentavos": 250,
+              "codigo": "res"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/cerdo-horno",
+              "nombre": "Cerdo al horno con puré y ensalada de col",
+              "extraCentavos": 150,
+              "codigo": "cerdo-horno"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/pescado-limon",
+              "nombre": "Pescado al limón con arroz y vegetales salteados",
+              "extraCentavos": 300,
+              "codigo": "pescado-limon"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/pollo-champinones",
+              "nombre": "Pollo con champiñones, papas asadas y ensalada",
+              "extraCentavos": 100,
+              "codigo": "pollo-champinones"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/lasana-carne",
+              "nombre": "Lasaña de carne con ensalada verde y pan al ajo",
+              "extraCentavos": 200,
+              "codigo": "lasana-carne"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/MENU/berenjena-horno",
+              "nombre": "Berenjena al horno con garbanzos, arroz y ensalada",
+              "extraCentavos": 50,
+              "codigo": "berenjena-horno"
+            }
+          ],
+          "extras": [
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/postre",
+              "nombre": "Postre individual",
+              "precioCentavos": 200,
+              "codigo": "postre"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/entrada",
+              "nombre": "Entrada del día",
+              "precioCentavos": 150,
+              "codigo": "entrada"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/crema-zapallo",
+              "nombre": "Crema de zapallo",
+              "precioCentavos": 175,
+              "codigo": "crema-zapallo"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/ensalada-caprese",
+              "nombre": "Ensalada de tomate, queso y albahaca",
+              "precioCentavos": 250,
+              "codigo": "ensalada-caprese"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/pan-artesanal",
+              "nombre": "Pan artesanal con mantequilla",
+              "precioCentavos": 100,
+              "codigo": "pan-artesanal"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/limonada",
+              "nombre": "Vaso de limonada con hierbabuena",
+              "precioCentavos": 150,
+              "codigo": "limonada"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/fruta-fresca",
+              "nombre": "Porción de fruta fresca",
+              "precioCentavos": 150,
+              "codigo": "fruta-fresca"
+            },
+            {
+              "id": "buffet-empresarial/ALMUERZO/EXTRA/tarta-limon",
+              "nombre": "Tarta individual de limón",
+              "precioCentavos": 250,
+              "codigo": "tarta-limon"
+            }
+          ]
+        },
+        {
+          "tipoComida": "MERIENDA",
+          "precioCentavos": 1250,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/pollo",
+              "nombre": "Pollo con arroz y vegetales",
+              "extraCentavos": 0,
+              "codigo": "pollo"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/vegetariano",
+              "nombre": "Vegetales con quinoa y legumbres",
+              "extraCentavos": 0,
+              "codigo": "vegetariano"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/res",
+              "nombre": "Res con papas y ensalada",
+              "extraCentavos": 250,
+              "codigo": "res"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/cerdo-horno",
+              "nombre": "Cerdo al horno con puré y ensalada de col",
+              "extraCentavos": 150,
+              "codigo": "cerdo-horno"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/pescado-limon",
+              "nombre": "Pescado al limón con arroz y vegetales salteados",
+              "extraCentavos": 300,
+              "codigo": "pescado-limon"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/pollo-champinones",
+              "nombre": "Pollo con champiñones, papas asadas y ensalada",
+              "extraCentavos": 100,
+              "codigo": "pollo-champinones"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/lasana-carne",
+              "nombre": "Lasaña de carne con ensalada verde y pan al ajo",
+              "extraCentavos": 200,
+              "codigo": "lasana-carne"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/MENU/berenjena-horno",
+              "nombre": "Berenjena al horno con garbanzos, arroz y ensalada",
+              "extraCentavos": 50,
+              "codigo": "berenjena-horno"
+            }
+          ],
+          "extras": [
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/postre",
+              "nombre": "Postre individual",
+              "precioCentavos": 200,
+              "codigo": "postre"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/entrada",
+              "nombre": "Entrada del día",
+              "precioCentavos": 150,
+              "codigo": "entrada"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/crema-zapallo",
+              "nombre": "Crema de zapallo",
+              "precioCentavos": 175,
+              "codigo": "crema-zapallo"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/ensalada-caprese",
+              "nombre": "Ensalada de tomate, queso y albahaca",
+              "precioCentavos": 250,
+              "codigo": "ensalada-caprese"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/pan-artesanal",
+              "nombre": "Pan artesanal con mantequilla",
+              "precioCentavos": 100,
+              "codigo": "pan-artesanal"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/limonada",
+              "nombre": "Vaso de limonada con hierbabuena",
+              "precioCentavos": 150,
+              "codigo": "limonada"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/fruta-fresca",
+              "nombre": "Porción de fruta fresca",
+              "precioCentavos": 150,
+              "codigo": "fruta-fresca"
+            },
+            {
+              "id": "buffet-empresarial/MERIENDA/EXTRA/tarta-limon",
+              "nombre": "Tarta individual de limón",
+              "precioCentavos": 250,
+              "codigo": "tarta-limon"
+            }
+          ]
+        },
+        {
+          "tipoComida": "DESAYUNO",
+          "precioCentavos": 650,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "buffet-empresarial/DESAYUNO/MENU/huevos-pan",
+              "nombre": "Huevos revueltos con pan, fruta y café o té",
+              "extraCentavos": 0,
+              "codigo": "huevos-pan"
+            },
+            {
+              "id": "buffet-empresarial/DESAYUNO/MENU/tigrillo",
+              "nombre": "Tigrillo con queso, fruta y café o té",
+              "extraCentavos": 100,
+              "codigo": "tigrillo"
+            },
+            {
+              "id": "buffet-empresarial/DESAYUNO/MENU/sandwich-pollo",
+              "nombre": "Sándwich de pollo con fruta y café o té",
+              "extraCentavos": 75,
+              "codigo": "sandwich-pollo"
+            },
+            {
+              "id": "buffet-empresarial/DESAYUNO/MENU/avena-fruta",
+              "nombre": "Avena con fruta, tostadas y bebida caliente",
+              "extraCentavos": 0,
+              "codigo": "avena-fruta"
+            }
+          ],
+          "extras": [
+            {
+              "id": "buffet-empresarial/DESAYUNO/EXTRA/fruta",
+              "nombre": "Porción de fruta fresca",
+              "precioCentavos": 150,
+              "codigo": "fruta"
+            },
+            {
+              "id": "buffet-empresarial/DESAYUNO/EXTRA/jugo",
+              "nombre": "Jugo de fruta individual",
+              "precioCentavos": 125,
+              "codigo": "jugo"
+            },
+            {
+              "id": "buffet-empresarial/DESAYUNO/EXTRA/pan",
+              "nombre": "Porción adicional de pan",
+              "precioCentavos": 75,
+              "codigo": "pan"
+            },
+            {
+              "id": "buffet-empresarial/DESAYUNO/EXTRA/huevo",
+              "nombre": "Huevo adicional",
+              "precioCentavos": 100,
+              "codigo": "huevo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coffee-break",
+      "nombre": "Coffee break para reuniones",
+      "descripcion": "Organiza la pausa de tu reunión con café, té y bocados dulces o salados. Escoge entre croissants, sándwiches, empanadas y repostería, y añade los complementos que prefieras.",
+      "imagen": "assets/paquetes/coffee-break.jpg",
+      "imagenAlt": "Tazas de café, croissants y pequeños sándwiches sobre una mesa para reuniones",
+      "incluye": [
+        "Una bebida caliente por persona",
+        "Dos bocados por persona",
+        "Agua para acompañar"
+      ],
+      "etiqueta": "Por persona",
+      "servicioId": "eventos-corporativos",
+      "ofertas": [
+        {
+          "tipoComida": "DESAYUNO",
+          "precioCentavos": 650,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "coffee-break/DESAYUNO/MENU/clasico",
+              "nombre": "Café o té con bocados salados",
+              "extraCentavos": 0,
+              "codigo": "clasico"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/MENU/dulce",
+              "nombre": "Café o té con bocados dulces",
+              "extraCentavos": 0,
+              "codigo": "dulce"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/MENU/mixto",
+              "nombre": "Opción mixta con un bocado adicional",
+              "extraCentavos": 100,
+              "codigo": "mixto"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/MENU/croissants",
+              "nombre": "Café o té con un mini croissant y una galleta de avena",
+              "extraCentavos": 75,
+              "codigo": "croissants"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/MENU/sandwiches",
+              "nombre": "Café o té con dos mini sándwiches de pollo",
+              "extraCentavos": 125,
+              "codigo": "sandwiches"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/MENU/empanadas",
+              "nombre": "Café o té con una mini empanada de queso y otra de carne",
+              "extraCentavos": 100,
+              "codigo": "empanadas"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/MENU/brownie",
+              "nombre": "Café o té con un brownie y una mini tarta de fruta",
+              "extraCentavos": 150,
+              "codigo": "brownie"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/MENU/bagel",
+              "nombre": "Café o té con un mini bagel de queso y una galleta de cacao",
+              "extraCentavos": 175,
+              "codigo": "bagel"
+            }
+          ],
+          "extras": [
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/fruta",
+              "nombre": "Vaso de fruta",
+              "precioCentavos": 150,
+              "codigo": "fruta"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/jugo",
+              "nombre": "Jugo individual",
+              "precioCentavos": 125,
+              "codigo": "jugo"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/yogur-granola",
+              "nombre": "Vaso de yogur con granola",
+              "precioCentavos": 175,
+              "codigo": "yogur-granola"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/mini-muffin",
+              "nombre": "Mini muffin de arándanos",
+              "precioCentavos": 100,
+              "codigo": "mini-muffin"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/galleta-avena",
+              "nombre": "Galleta de avena y pasas",
+              "precioCentavos": 75,
+              "codigo": "galleta-avena"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/brocheta-caprese",
+              "nombre": "Brocheta de tomate y queso",
+              "precioCentavos": 125,
+              "codigo": "brocheta-caprese"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/mini-quiche",
+              "nombre": "Mini quiche de espinaca",
+              "precioCentavos": 150,
+              "codigo": "mini-quiche"
+            },
+            {
+              "id": "coffee-break/DESAYUNO/EXTRA/chocolate-caliente",
+              "nombre": "Taza de chocolate caliente",
+              "precioCentavos": 175,
+              "codigo": "chocolate-caliente"
+            }
+          ]
+        },
+        {
+          "tipoComida": "MERIENDA",
+          "precioCentavos": 650,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "coffee-break/MERIENDA/MENU/clasico",
+              "nombre": "Café o té con bocados salados",
+              "extraCentavos": 0,
+              "codigo": "clasico"
+            },
+            {
+              "id": "coffee-break/MERIENDA/MENU/dulce",
+              "nombre": "Café o té con bocados dulces",
+              "extraCentavos": 0,
+              "codigo": "dulce"
+            },
+            {
+              "id": "coffee-break/MERIENDA/MENU/mixto",
+              "nombre": "Opción mixta con un bocado adicional",
+              "extraCentavos": 100,
+              "codigo": "mixto"
+            },
+            {
+              "id": "coffee-break/MERIENDA/MENU/croissants",
+              "nombre": "Café o té con un mini croissant y una galleta de avena",
+              "extraCentavos": 75,
+              "codigo": "croissants"
+            },
+            {
+              "id": "coffee-break/MERIENDA/MENU/sandwiches",
+              "nombre": "Café o té con dos mini sándwiches de pollo",
+              "extraCentavos": 125,
+              "codigo": "sandwiches"
+            },
+            {
+              "id": "coffee-break/MERIENDA/MENU/empanadas",
+              "nombre": "Café o té con una mini empanada de queso y otra de carne",
+              "extraCentavos": 100,
+              "codigo": "empanadas"
+            },
+            {
+              "id": "coffee-break/MERIENDA/MENU/brownie",
+              "nombre": "Café o té con un brownie y una mini tarta de fruta",
+              "extraCentavos": 150,
+              "codigo": "brownie"
+            },
+            {
+              "id": "coffee-break/MERIENDA/MENU/bagel",
+              "nombre": "Café o té con un mini bagel de queso y una galleta de cacao",
+              "extraCentavos": 175,
+              "codigo": "bagel"
+            }
+          ],
+          "extras": [
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/fruta",
+              "nombre": "Vaso de fruta",
+              "precioCentavos": 150,
+              "codigo": "fruta"
+            },
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/jugo",
+              "nombre": "Jugo individual",
+              "precioCentavos": 125,
+              "codigo": "jugo"
+            },
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/yogur-granola",
+              "nombre": "Vaso de yogur con granola",
+              "precioCentavos": 175,
+              "codigo": "yogur-granola"
+            },
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/mini-muffin",
+              "nombre": "Mini muffin de arándanos",
+              "precioCentavos": 100,
+              "codigo": "mini-muffin"
+            },
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/galleta-avena",
+              "nombre": "Galleta de avena y pasas",
+              "precioCentavos": 75,
+              "codigo": "galleta-avena"
+            },
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/brocheta-caprese",
+              "nombre": "Brocheta de tomate y queso",
+              "precioCentavos": 125,
+              "codigo": "brocheta-caprese"
+            },
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/mini-quiche",
+              "nombre": "Mini quiche de espinaca",
+              "precioCentavos": 150,
+              "codigo": "mini-quiche"
+            },
+            {
+              "id": "coffee-break/MERIENDA/EXTRA/chocolate-caliente",
+              "nombre": "Taza de chocolate caliente",
+              "precioCentavos": 175,
+              "codigo": "chocolate-caliente"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bienestar",
+      "nombre": "Menú bienestar",
+      "descripcion": "Configura una propuesta con vegetales, cereales y la opción principal que prefieras. Indica tus necesidades alimentarias para consultarlas con el equipo antes de confirmar el servicio.",
+      "imagen": "assets/paquetes/bienestar.jpg",
+      "imagenAlt": "Bowl de quinoa y garbanzos con aguacate, tomate, pepino y vegetales frescos",
+      "incluye": [
+        "Una porción del menú elegido por persona",
+        "Acompañamientos indicados en el menú",
+        "Bebida incluida según el menú elegido"
+      ],
+      "etiqueta": "Por persona",
+      "servicioId": "buffet-empresarial",
+      "ofertas": [
+        {
+          "tipoComida": "ALMUERZO",
+          "precioCentavos": 1100,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "bienestar/ALMUERZO/MENU/legumbres",
+              "nombre": "Quinoa con legumbres y vegetales",
+              "extraCentavos": 0,
+              "codigo": "legumbres"
+            },
+            {
+              "id": "bienestar/ALMUERZO/MENU/pollo",
+              "nombre": "Pollo con arroz integral y vegetales",
+              "extraCentavos": 150,
+              "codigo": "pollo"
+            },
+            {
+              "id": "bienestar/ALMUERZO/MENU/pescado",
+              "nombre": "Pescado con quinoa y vegetales",
+              "extraCentavos": 300,
+              "codigo": "pescado"
+            },
+            {
+              "id": "bienestar/ALMUERZO/MENU/lentejas",
+              "nombre": "Lentejas con arroz integral, zapallo y ensalada",
+              "extraCentavos": 0,
+              "codigo": "lentejas"
+            },
+            {
+              "id": "bienestar/ALMUERZO/MENU/pavo",
+              "nombre": "Pavo al horno con camote y ensalada de pepino",
+              "extraCentavos": 250,
+              "codigo": "pavo"
+            },
+            {
+              "id": "bienestar/ALMUERZO/MENU/tofu",
+              "nombre": "Tofu salteado con quinoa, brócoli y zanahoria",
+              "extraCentavos": 150,
+              "codigo": "tofu"
+            },
+            {
+              "id": "bienestar/ALMUERZO/MENU/garbanzos",
+              "nombre": "Bowl de garbanzos, cuscús, aguacate y vegetales",
+              "extraCentavos": 100,
+              "codigo": "garbanzos"
+            },
+            {
+              "id": "bienestar/ALMUERZO/MENU/tortilla-vegetales",
+              "nombre": "Tortilla de espinaca con papas al horno y ensalada",
+              "extraCentavos": 50,
+              "codigo": "tortilla-vegetales"
+            }
+          ],
+          "extras": [
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/fruta",
+              "nombre": "Porción de fruta",
+              "precioCentavos": 150,
+              "codigo": "fruta"
+            },
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/sopa",
+              "nombre": "Sopa de vegetales",
+              "precioCentavos": 200,
+              "codigo": "sopa"
+            },
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/hummus",
+              "nombre": "Hummus con bastones de zanahoria y pepino",
+              "precioCentavos": 175,
+              "codigo": "hummus"
+            },
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/ensalada-quinoa",
+              "nombre": "Ensalada pequeña de quinoa y tomate",
+              "precioCentavos": 225,
+              "codigo": "ensalada-quinoa"
+            },
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/yogur-natural",
+              "nombre": "Yogur natural con semillas",
+              "precioCentavos": 150,
+              "codigo": "yogur-natural"
+            },
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/pan-integral",
+              "nombre": "Pan integral con aguacate",
+              "precioCentavos": 175,
+              "codigo": "pan-integral"
+            },
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/batido-fruta",
+              "nombre": "Vaso de batido de fruta",
+              "precioCentavos": 200,
+              "codigo": "batido-fruta"
+            },
+            {
+              "id": "bienestar/ALMUERZO/EXTRA/pudin-chia",
+              "nombre": "Pudín de chía con mango",
+              "precioCentavos": 225,
+              "codigo": "pudin-chia"
+            }
+          ]
+        },
+        {
+          "tipoComida": "MERIENDA",
+          "precioCentavos": 1100,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "bienestar/MERIENDA/MENU/legumbres",
+              "nombre": "Quinoa con legumbres y vegetales",
+              "extraCentavos": 0,
+              "codigo": "legumbres"
+            },
+            {
+              "id": "bienestar/MERIENDA/MENU/pollo",
+              "nombre": "Pollo con arroz integral y vegetales",
+              "extraCentavos": 150,
+              "codigo": "pollo"
+            },
+            {
+              "id": "bienestar/MERIENDA/MENU/pescado",
+              "nombre": "Pescado con quinoa y vegetales",
+              "extraCentavos": 300,
+              "codigo": "pescado"
+            },
+            {
+              "id": "bienestar/MERIENDA/MENU/lentejas",
+              "nombre": "Lentejas con arroz integral, zapallo y ensalada",
+              "extraCentavos": 0,
+              "codigo": "lentejas"
+            },
+            {
+              "id": "bienestar/MERIENDA/MENU/pavo",
+              "nombre": "Pavo al horno con camote y ensalada de pepino",
+              "extraCentavos": 250,
+              "codigo": "pavo"
+            },
+            {
+              "id": "bienestar/MERIENDA/MENU/tofu",
+              "nombre": "Tofu salteado con quinoa, brócoli y zanahoria",
+              "extraCentavos": 150,
+              "codigo": "tofu"
+            },
+            {
+              "id": "bienestar/MERIENDA/MENU/garbanzos",
+              "nombre": "Bowl de garbanzos, cuscús, aguacate y vegetales",
+              "extraCentavos": 100,
+              "codigo": "garbanzos"
+            },
+            {
+              "id": "bienestar/MERIENDA/MENU/tortilla-vegetales",
+              "nombre": "Tortilla de espinaca con papas al horno y ensalada",
+              "extraCentavos": 50,
+              "codigo": "tortilla-vegetales"
+            }
+          ],
+          "extras": [
+            {
+              "id": "bienestar/MERIENDA/EXTRA/fruta",
+              "nombre": "Porción de fruta",
+              "precioCentavos": 150,
+              "codigo": "fruta"
+            },
+            {
+              "id": "bienestar/MERIENDA/EXTRA/sopa",
+              "nombre": "Sopa de vegetales",
+              "precioCentavos": 200,
+              "codigo": "sopa"
+            },
+            {
+              "id": "bienestar/MERIENDA/EXTRA/hummus",
+              "nombre": "Hummus con bastones de zanahoria y pepino",
+              "precioCentavos": 175,
+              "codigo": "hummus"
+            },
+            {
+              "id": "bienestar/MERIENDA/EXTRA/ensalada-quinoa",
+              "nombre": "Ensalada pequeña de quinoa y tomate",
+              "precioCentavos": 225,
+              "codigo": "ensalada-quinoa"
+            },
+            {
+              "id": "bienestar/MERIENDA/EXTRA/yogur-natural",
+              "nombre": "Yogur natural con semillas",
+              "precioCentavos": 150,
+              "codigo": "yogur-natural"
+            },
+            {
+              "id": "bienestar/MERIENDA/EXTRA/pan-integral",
+              "nombre": "Pan integral con aguacate",
+              "precioCentavos": 175,
+              "codigo": "pan-integral"
+            },
+            {
+              "id": "bienestar/MERIENDA/EXTRA/batido-fruta",
+              "nombre": "Vaso de batido de fruta",
+              "precioCentavos": 200,
+              "codigo": "batido-fruta"
+            },
+            {
+              "id": "bienestar/MERIENDA/EXTRA/pudin-chia",
+              "nombre": "Pudín de chía con mango",
+              "precioCentavos": 225,
+              "codigo": "pudin-chia"
+            }
+          ]
+        },
+        {
+          "tipoComida": "DESAYUNO",
+          "precioCentavos": 750,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "bienestar/DESAYUNO/MENU/avena-semillas",
+              "nombre": "Avena con fruta, semillas y bebida caliente",
+              "extraCentavos": 0,
+              "codigo": "avena-semillas"
+            },
+            {
+              "id": "bienestar/DESAYUNO/MENU/tostadas-huevo",
+              "nombre": "Tostadas integrales con huevo, aguacate y fruta",
+              "extraCentavos": 100,
+              "codigo": "tostadas-huevo"
+            },
+            {
+              "id": "bienestar/DESAYUNO/MENU/yogur-fruta",
+              "nombre": "Yogur natural con fruta, granola y pan integral",
+              "extraCentavos": 50,
+              "codigo": "yogur-fruta"
+            }
+          ],
+          "extras": [
+            {
+              "id": "bienestar/DESAYUNO/EXTRA/fruta",
+              "nombre": "Porción de fruta fresca",
+              "precioCentavos": 150,
+              "codigo": "fruta"
+            },
+            {
+              "id": "bienestar/DESAYUNO/EXTRA/jugo",
+              "nombre": "Jugo de fruta individual",
+              "precioCentavos": 125,
+              "codigo": "jugo"
+            },
+            {
+              "id": "bienestar/DESAYUNO/EXTRA/pan",
+              "nombre": "Porción adicional de pan",
+              "precioCentavos": 75,
+              "codigo": "pan"
+            },
+            {
+              "id": "bienestar/DESAYUNO/EXTRA/huevo",
+              "nombre": "Huevo adicional",
+              "precioCentavos": 100,
+              "codigo": "huevo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parrillada",
+      "nombre": "Parrillada para compartir",
+      "descripcion": "Reúne a tus invitados alrededor de una parrillada con carnes, vegetales y acompañamientos. Elige el plato de cada persona y completa el servicio con entradas, salsas o postres.",
+      "imagen": "assets/paquetes/parrillada.jpg",
+      "imagenAlt": "Carnes y vegetales a la parrilla con papas y acompañamientos sobre una tabla",
+      "incluye": [
+        "Una porción del menú elegido por persona",
+        "Acompañamientos indicados en el plato",
+        "Bebida de la casa por persona"
+      ],
+      "etiqueta": "Por persona",
+      "servicioId": "eventos-corporativos",
+      "ofertas": [
+        {
+          "tipoComida": "ALMUERZO",
+          "precioCentavos": 1650,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "parrillada/ALMUERZO/MENU/pollo-parrilla",
+              "nombre": "Pollo a la parrilla con papas rústicas y ensalada",
+              "extraCentavos": 0,
+              "codigo": "pollo-parrilla"
+            },
+            {
+              "id": "parrillada/ALMUERZO/MENU/res-parrilla",
+              "nombre": "Res a la parrilla con choclo y papas asadas",
+              "extraCentavos": 250,
+              "codigo": "res-parrilla"
+            },
+            {
+              "id": "parrillada/ALMUERZO/MENU/costillas",
+              "nombre": "Costillas de cerdo con yuca y ensalada de col",
+              "extraCentavos": 300,
+              "codigo": "costillas"
+            },
+            {
+              "id": "parrillada/ALMUERZO/MENU/mixta",
+              "nombre": "Parrillada de res, pollo y chorizo con papas y ensalada",
+              "extraCentavos": 400,
+              "codigo": "mixta"
+            },
+            {
+              "id": "parrillada/ALMUERZO/MENU/brochetas",
+              "nombre": "Brochetas de pollo y vegetales con arroz y ensalada",
+              "extraCentavos": 50,
+              "codigo": "brochetas"
+            },
+            {
+              "id": "parrillada/ALMUERZO/MENU/cerdo",
+              "nombre": "Lomo de cerdo con plátano asado y ensalada",
+              "extraCentavos": 150,
+              "codigo": "cerdo"
+            },
+            {
+              "id": "parrillada/ALMUERZO/MENU/portobello",
+              "nombre": "Portobellos y vegetales a la parrilla con papas y quinoa",
+              "extraCentavos": 0,
+              "codigo": "portobello"
+            },
+            {
+              "id": "parrillada/ALMUERZO/MENU/pescado-parrilla",
+              "nombre": "Pescado a la parrilla con yuca y ensalada de tomate",
+              "extraCentavos": 350,
+              "codigo": "pescado-parrilla"
+            }
+          ],
+          "extras": [
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/chorizo",
+              "nombre": "Chorizo a la parrilla",
+              "precioCentavos": 225,
+              "codigo": "chorizo"
+            },
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/choclo",
+              "nombre": "Choclo asado con queso",
+              "precioCentavos": 175,
+              "codigo": "choclo"
+            },
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/yuca",
+              "nombre": "Porción de yuca dorada",
+              "precioCentavos": 150,
+              "codigo": "yuca"
+            },
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/chimichurri",
+              "nombre": "Porción de chimichurri",
+              "precioCentavos": 75,
+              "codigo": "chimichurri"
+            },
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/provoleta",
+              "nombre": "Queso a la parrilla con orégano",
+              "precioCentavos": 250,
+              "codigo": "provoleta"
+            },
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/ensalada-col",
+              "nombre": "Ensalada de col y zanahoria",
+              "precioCentavos": 150,
+              "codigo": "ensalada-col"
+            },
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/papas-crema",
+              "nombre": "Papas asadas con crema y cebollín",
+              "precioCentavos": 200,
+              "codigo": "papas-crema"
+            },
+            {
+              "id": "parrillada/ALMUERZO/EXTRA/pina-asada",
+              "nombre": "Piña asada con canela",
+              "precioCentavos": 175,
+              "codigo": "pina-asada"
+            }
+          ]
+        },
+        {
+          "tipoComida": "MERIENDA",
+          "precioCentavos": 1650,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "parrillada/MERIENDA/MENU/pollo-parrilla",
+              "nombre": "Pollo a la parrilla con papas rústicas y ensalada",
+              "extraCentavos": 0,
+              "codigo": "pollo-parrilla"
+            },
+            {
+              "id": "parrillada/MERIENDA/MENU/res-parrilla",
+              "nombre": "Res a la parrilla con choclo y papas asadas",
+              "extraCentavos": 250,
+              "codigo": "res-parrilla"
+            },
+            {
+              "id": "parrillada/MERIENDA/MENU/costillas",
+              "nombre": "Costillas de cerdo con yuca y ensalada de col",
+              "extraCentavos": 300,
+              "codigo": "costillas"
+            },
+            {
+              "id": "parrillada/MERIENDA/MENU/mixta",
+              "nombre": "Parrillada de res, pollo y chorizo con papas y ensalada",
+              "extraCentavos": 400,
+              "codigo": "mixta"
+            },
+            {
+              "id": "parrillada/MERIENDA/MENU/brochetas",
+              "nombre": "Brochetas de pollo y vegetales con arroz y ensalada",
+              "extraCentavos": 50,
+              "codigo": "brochetas"
+            },
+            {
+              "id": "parrillada/MERIENDA/MENU/cerdo",
+              "nombre": "Lomo de cerdo con plátano asado y ensalada",
+              "extraCentavos": 150,
+              "codigo": "cerdo"
+            },
+            {
+              "id": "parrillada/MERIENDA/MENU/portobello",
+              "nombre": "Portobellos y vegetales a la parrilla con papas y quinoa",
+              "extraCentavos": 0,
+              "codigo": "portobello"
+            },
+            {
+              "id": "parrillada/MERIENDA/MENU/pescado-parrilla",
+              "nombre": "Pescado a la parrilla con yuca y ensalada de tomate",
+              "extraCentavos": 350,
+              "codigo": "pescado-parrilla"
+            }
+          ],
+          "extras": [
+            {
+              "id": "parrillada/MERIENDA/EXTRA/chorizo",
+              "nombre": "Chorizo a la parrilla",
+              "precioCentavos": 225,
+              "codigo": "chorizo"
+            },
+            {
+              "id": "parrillada/MERIENDA/EXTRA/choclo",
+              "nombre": "Choclo asado con queso",
+              "precioCentavos": 175,
+              "codigo": "choclo"
+            },
+            {
+              "id": "parrillada/MERIENDA/EXTRA/yuca",
+              "nombre": "Porción de yuca dorada",
+              "precioCentavos": 150,
+              "codigo": "yuca"
+            },
+            {
+              "id": "parrillada/MERIENDA/EXTRA/chimichurri",
+              "nombre": "Porción de chimichurri",
+              "precioCentavos": 75,
+              "codigo": "chimichurri"
+            },
+            {
+              "id": "parrillada/MERIENDA/EXTRA/provoleta",
+              "nombre": "Queso a la parrilla con orégano",
+              "precioCentavos": 250,
+              "codigo": "provoleta"
+            },
+            {
+              "id": "parrillada/MERIENDA/EXTRA/ensalada-col",
+              "nombre": "Ensalada de col y zanahoria",
+              "precioCentavos": 150,
+              "codigo": "ensalada-col"
+            },
+            {
+              "id": "parrillada/MERIENDA/EXTRA/papas-crema",
+              "nombre": "Papas asadas con crema y cebollín",
+              "precioCentavos": 200,
+              "codigo": "papas-crema"
+            },
+            {
+              "id": "parrillada/MERIENDA/EXTRA/pina-asada",
+              "nombre": "Piña asada con canela",
+              "precioCentavos": 175,
+              "codigo": "pina-asada"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocina-ecuatoriana",
+      "nombre": "Sabores del Ecuador",
+      "descripcion": "Comparte platos de la cocina ecuatoriana en tu evento. Encuentra opciones con cerdo, pollo, pescado o vegetales, acompañadas de arroz, papas, mote o plátano según el menú.",
+      "imagen": "assets/paquetes/cocina-ecuatoriana.jpg",
+      "imagenAlt": "Plato de comida ecuatoriana con cerdo horneado, llapingachos, mote y ensalada",
+      "incluye": [
+        "Una porción del plato ecuatoriano elegido",
+        "Acompañamientos indicados en el menú",
+        "Jugo de fruta por persona"
+      ],
+      "etiqueta": "Por persona",
+      "servicioId": "buffet-empresarial",
+      "ofertas": [
+        {
+          "tipoComida": "ALMUERZO",
+          "precioCentavos": 1300,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/seco-pollo",
+              "nombre": "Seco de pollo con arroz, maduro y ensalada",
+              "extraCentavos": 0,
+              "codigo": "seco-pollo"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/hornado",
+              "nombre": "Hornado con mote, llapingacho y ensalada",
+              "extraCentavos": 250,
+              "codigo": "hornado"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/fritada",
+              "nombre": "Fritada con mote, maduro y ensalada",
+              "extraCentavos": 200,
+              "codigo": "fritada"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/seco-res",
+              "nombre": "Seco de res con arroz, papa y aguacate",
+              "extraCentavos": 200,
+              "codigo": "seco-res"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/encocado",
+              "nombre": "Encocado de pescado con arroz y patacones",
+              "extraCentavos": 300,
+              "codigo": "encocado"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/guatita",
+              "nombre": "Guatita con arroz y ensalada de tomate",
+              "extraCentavos": 100,
+              "codigo": "guatita"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/llapingachos",
+              "nombre": "Llapingachos con chorizo, huevo, ensalada y salsa de maní",
+              "extraCentavos": 150,
+              "codigo": "llapingachos"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/MENU/menestra-vegetales",
+              "nombre": "Menestra de lentejas con arroz, maduro y vegetales",
+              "extraCentavos": 0,
+              "codigo": "menestra-vegetales"
+            }
+          ],
+          "extras": [
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/empanada-viento",
+              "nombre": "Empanada de viento",
+              "precioCentavos": 125,
+              "codigo": "empanada-viento"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/humita",
+              "nombre": "Humita de queso",
+              "precioCentavos": 175,
+              "codigo": "humita"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/patacones",
+              "nombre": "Porción de patacones",
+              "precioCentavos": 150,
+              "codigo": "patacones"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/mote",
+              "nombre": "Porción de mote con cebolla",
+              "precioCentavos": 100,
+              "codigo": "mote"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/locro",
+              "nombre": "Taza de locro de papa con queso",
+              "precioCentavos": 225,
+              "codigo": "locro"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/maduro-queso",
+              "nombre": "Maduro asado con queso",
+              "precioCentavos": 175,
+              "codigo": "maduro-queso"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/higos-queso",
+              "nombre": "Higos con queso",
+              "precioCentavos": 225,
+              "codigo": "higos-queso"
+            },
+            {
+              "id": "cocina-ecuatoriana/ALMUERZO/EXTRA/espumilla",
+              "nombre": "Vaso de espumilla de guayaba",
+              "precioCentavos": 175,
+              "codigo": "espumilla"
+            }
+          ]
+        },
+        {
+          "tipoComida": "MERIENDA",
+          "precioCentavos": 1300,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/seco-pollo",
+              "nombre": "Seco de pollo con arroz, maduro y ensalada",
+              "extraCentavos": 0,
+              "codigo": "seco-pollo"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/hornado",
+              "nombre": "Hornado con mote, llapingacho y ensalada",
+              "extraCentavos": 250,
+              "codigo": "hornado"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/fritada",
+              "nombre": "Fritada con mote, maduro y ensalada",
+              "extraCentavos": 200,
+              "codigo": "fritada"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/seco-res",
+              "nombre": "Seco de res con arroz, papa y aguacate",
+              "extraCentavos": 200,
+              "codigo": "seco-res"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/encocado",
+              "nombre": "Encocado de pescado con arroz y patacones",
+              "extraCentavos": 300,
+              "codigo": "encocado"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/guatita",
+              "nombre": "Guatita con arroz y ensalada de tomate",
+              "extraCentavos": 100,
+              "codigo": "guatita"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/llapingachos",
+              "nombre": "Llapingachos con chorizo, huevo, ensalada y salsa de maní",
+              "extraCentavos": 150,
+              "codigo": "llapingachos"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/MENU/menestra-vegetales",
+              "nombre": "Menestra de lentejas con arroz, maduro y vegetales",
+              "extraCentavos": 0,
+              "codigo": "menestra-vegetales"
+            }
+          ],
+          "extras": [
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/empanada-viento",
+              "nombre": "Empanada de viento",
+              "precioCentavos": 125,
+              "codigo": "empanada-viento"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/humita",
+              "nombre": "Humita de queso",
+              "precioCentavos": 175,
+              "codigo": "humita"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/patacones",
+              "nombre": "Porción de patacones",
+              "precioCentavos": 150,
+              "codigo": "patacones"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/mote",
+              "nombre": "Porción de mote con cebolla",
+              "precioCentavos": 100,
+              "codigo": "mote"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/locro",
+              "nombre": "Taza de locro de papa con queso",
+              "precioCentavos": 225,
+              "codigo": "locro"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/maduro-queso",
+              "nombre": "Maduro asado con queso",
+              "precioCentavos": 175,
+              "codigo": "maduro-queso"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/higos-queso",
+              "nombre": "Higos con queso",
+              "precioCentavos": 225,
+              "codigo": "higos-queso"
+            },
+            {
+              "id": "cocina-ecuatoriana/MERIENDA/EXTRA/espumilla",
+              "nombre": "Vaso de espumilla de guayaba",
+              "precioCentavos": 175,
+              "codigo": "espumilla"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pastas",
+      "nombre": "Pastas y cocina italiana",
+      "descripcion": "Elige una pasta con su salsa y acompáñala con ensalada y pan. Personaliza tu servicio con antipastos, bebidas y postres para reuniones, celebraciones o almuerzos en equipo.",
+      "imagen": "assets/paquetes/pastas.jpg",
+      "imagenAlt": "Pasta con salsa de tomate, albahaca y queso acompañada de pan y ensalada",
+      "incluye": [
+        "Una porción de la pasta elegida por persona",
+        "Ensalada verde y pan por persona",
+        "Bebida de la casa por persona"
+      ],
+      "etiqueta": "Por persona",
+      "servicioId": "buffet-empresarial",
+      "ofertas": [
+        {
+          "tipoComida": "ALMUERZO",
+          "precioCentavos": 1275,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "pastas/ALMUERZO/MENU/pomodoro",
+              "nombre": "Espagueti con salsa de tomate y albahaca",
+              "extraCentavos": 0,
+              "codigo": "pomodoro"
+            },
+            {
+              "id": "pastas/ALMUERZO/MENU/bolonesa",
+              "nombre": "Espagueti a la boloñesa con carne de res",
+              "extraCentavos": 175,
+              "codigo": "bolonesa"
+            },
+            {
+              "id": "pastas/ALMUERZO/MENU/alfredo",
+              "nombre": "Fettuccine Alfredo con pollo y champiñones",
+              "extraCentavos": 225,
+              "codigo": "alfredo"
+            },
+            {
+              "id": "pastas/ALMUERZO/MENU/pesto",
+              "nombre": "Penne al pesto de albahaca con tomates cherry",
+              "extraCentavos": 150,
+              "codigo": "pesto"
+            },
+            {
+              "id": "pastas/ALMUERZO/MENU/lasana",
+              "nombre": "Lasaña de carne con salsa de tomate y queso",
+              "extraCentavos": 250,
+              "codigo": "lasana"
+            },
+            {
+              "id": "pastas/ALMUERZO/MENU/ravioles",
+              "nombre": "Ravioles de espinaca y ricota en salsa de tomate",
+              "extraCentavos": 275,
+              "codigo": "ravioles"
+            },
+            {
+              "id": "pastas/ALMUERZO/MENU/primavera",
+              "nombre": "Fusilli con brócoli, calabacín, zanahoria y tomate",
+              "extraCentavos": 75,
+              "codigo": "primavera"
+            },
+            {
+              "id": "pastas/ALMUERZO/MENU/camaron",
+              "nombre": "Linguine con camarones en salsa de ajo y tomate",
+              "extraCentavos": 400,
+              "codigo": "camaron"
+            }
+          ],
+          "extras": [
+            {
+              "id": "pastas/ALMUERZO/EXTRA/bruschetta",
+              "nombre": "Bruschetta de tomate y albahaca",
+              "precioCentavos": 150,
+              "codigo": "bruschetta"
+            },
+            {
+              "id": "pastas/ALMUERZO/EXTRA/antipasto",
+              "nombre": "Antipasto de vegetales asados",
+              "precioCentavos": 225,
+              "codigo": "antipasto"
+            },
+            {
+              "id": "pastas/ALMUERZO/EXTRA/pan-ajo",
+              "nombre": "Pan al ajo con queso",
+              "precioCentavos": 125,
+              "codigo": "pan-ajo"
+            },
+            {
+              "id": "pastas/ALMUERZO/EXTRA/ensalada-rucula",
+              "nombre": "Ensalada de rúcula y parmesano",
+              "precioCentavos": 200,
+              "codigo": "ensalada-rucula"
+            },
+            {
+              "id": "pastas/ALMUERZO/EXTRA/crema-tomate",
+              "nombre": "Taza de crema de tomate",
+              "precioCentavos": 175,
+              "codigo": "crema-tomate"
+            },
+            {
+              "id": "pastas/ALMUERZO/EXTRA/tiramisu",
+              "nombre": "Tiramisú individual",
+              "precioCentavos": 300,
+              "codigo": "tiramisu"
+            },
+            {
+              "id": "pastas/ALMUERZO/EXTRA/panna-cotta",
+              "nombre": "Panna cotta con frutos rojos",
+              "precioCentavos": 275,
+              "codigo": "panna-cotta"
+            },
+            {
+              "id": "pastas/ALMUERZO/EXTRA/limonada-albahaca",
+              "nombre": "Vaso de limonada con albahaca",
+              "precioCentavos": 150,
+              "codigo": "limonada-albahaca"
+            }
+          ]
+        },
+        {
+          "tipoComida": "MERIENDA",
+          "precioCentavos": 1275,
+          "minPersonas": 10,
+          "maxPersonas": 200,
+          "menus": [
+            {
+              "id": "pastas/MERIENDA/MENU/pomodoro",
+              "nombre": "Espagueti con salsa de tomate y albahaca",
+              "extraCentavos": 0,
+              "codigo": "pomodoro"
+            },
+            {
+              "id": "pastas/MERIENDA/MENU/bolonesa",
+              "nombre": "Espagueti a la boloñesa con carne de res",
+              "extraCentavos": 175,
+              "codigo": "bolonesa"
+            },
+            {
+              "id": "pastas/MERIENDA/MENU/alfredo",
+              "nombre": "Fettuccine Alfredo con pollo y champiñones",
+              "extraCentavos": 225,
+              "codigo": "alfredo"
+            },
+            {
+              "id": "pastas/MERIENDA/MENU/pesto",
+              "nombre": "Penne al pesto de albahaca con tomates cherry",
+              "extraCentavos": 150,
+              "codigo": "pesto"
+            },
+            {
+              "id": "pastas/MERIENDA/MENU/lasana",
+              "nombre": "Lasaña de carne con salsa de tomate y queso",
+              "extraCentavos": 250,
+              "codigo": "lasana"
+            },
+            {
+              "id": "pastas/MERIENDA/MENU/ravioles",
+              "nombre": "Ravioles de espinaca y ricota en salsa de tomate",
+              "extraCentavos": 275,
+              "codigo": "ravioles"
+            },
+            {
+              "id": "pastas/MERIENDA/MENU/primavera",
+              "nombre": "Fusilli con brócoli, calabacín, zanahoria y tomate",
+              "extraCentavos": 75,
+              "codigo": "primavera"
+            },
+            {
+              "id": "pastas/MERIENDA/MENU/camaron",
+              "nombre": "Linguine con camarones en salsa de ajo y tomate",
+              "extraCentavos": 400,
+              "codigo": "camaron"
+            }
+          ],
+          "extras": [
+            {
+              "id": "pastas/MERIENDA/EXTRA/bruschetta",
+              "nombre": "Bruschetta de tomate y albahaca",
+              "precioCentavos": 150,
+              "codigo": "bruschetta"
+            },
+            {
+              "id": "pastas/MERIENDA/EXTRA/antipasto",
+              "nombre": "Antipasto de vegetales asados",
+              "precioCentavos": 225,
+              "codigo": "antipasto"
+            },
+            {
+              "id": "pastas/MERIENDA/EXTRA/pan-ajo",
+              "nombre": "Pan al ajo con queso",
+              "precioCentavos": 125,
+              "codigo": "pan-ajo"
+            },
+            {
+              "id": "pastas/MERIENDA/EXTRA/ensalada-rucula",
+              "nombre": "Ensalada de rúcula y parmesano",
+              "precioCentavos": 200,
+              "codigo": "ensalada-rucula"
+            },
+            {
+              "id": "pastas/MERIENDA/EXTRA/crema-tomate",
+              "nombre": "Taza de crema de tomate",
+              "precioCentavos": 175,
+              "codigo": "crema-tomate"
+            },
+            {
+              "id": "pastas/MERIENDA/EXTRA/tiramisu",
+              "nombre": "Tiramisú individual",
+              "precioCentavos": 300,
+              "codigo": "tiramisu"
+            },
+            {
+              "id": "pastas/MERIENDA/EXTRA/panna-cotta",
+              "nombre": "Panna cotta con frutos rojos",
+              "precioCentavos": 275,
+              "codigo": "panna-cotta"
+            },
+            {
+              "id": "pastas/MERIENDA/EXTRA/limonada-albahaca",
+              "nombre": "Vaso de limonada con albahaca",
+              "precioCentavos": 150,
+              "codigo": "limonada-albahaca"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

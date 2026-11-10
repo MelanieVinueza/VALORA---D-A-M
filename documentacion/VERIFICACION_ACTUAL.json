@@ -1,0 +1,11 @@
+{
+  "version": "2.1.0",
+  "alcance": "Frontend estático: catálogo, formularios y carrito local",
+  "repositorio_base": "https://github.com/MelanieVinueza/RETO1--VALORA-CATERING",
+  "commit_base": "928c3eb456703dbb0941917e7d385220c3726738",
+  "catalogo": { "servicios": 4, "paquetes": 6, "ofertas_por_comida": 14 },
+  "pruebas": { "comando": "npm test", "ejecutadas": 22, "correctas": 22, "fallidas": 0 },
+  "presentacion": { "css_principal": "idéntico al original", "imagenes_y_fuentes": "conservadas", "revision_visual_en_navegador_real": "pendiente" },
+  "backend": "no incluido, conforme al alcance solicitado",
+  "base_de_datos": "no incluida; correspondencia documentada con el modelo Oracle"
+}
